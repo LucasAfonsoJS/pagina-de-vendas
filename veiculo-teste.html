@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>pagina comercial</title>
+    <title>Veiculo</title>
 </head>
 <body>
-    <header>
+    <header style="border-bottom: 3px solid #EB2D2D;">
         <div class="container">
                 <div class="logo">
                     <img src="./images/logo.jpg" alt="images">
@@ -18,10 +18,10 @@
             <nav class="desktop">
                 <ul>
                     <li>
-                        <a style="color: #EB2D2D;" href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Venda</a>
+                        <a style="color: #EB2D2D;" href="#">Venda</a>
                     </li>
                     <li>
                         <a href="#">Sobre</a>
@@ -51,17 +51,92 @@
             <div class="clear"></div>
         </div><!--container-->
     </header>
-    <section class="banner">
-        <div class="container">
-            <div class="text-banner">
-                <div class="text-banner-single">Consultoria</div>
-                <div class="text-banner-single">Compra</div>
-                <div class="text-banner-single">Venda</div>
-                <div class="text-banner-single">dasilvaafonsolucas17@gmail.com</div>
-            </div><!--text-banner-->
-        </div><!--container-->
-    </section><!--banner-->
     
+    <section class="venda-single">
+        <div class="line-titulo">
+            <div class="ln1"></div>
+            <h2>Veiculos para venda</h2>
+        </div><!--line-titulo-->
+
+        <div class="container">
+            <div class="info-veiculo">
+                <div class="info-bread">
+                    <a href="index.html">HOME</a><span>></span>
+                    <a href="venda.html">Venda</a><span>></span>
+                    <a href="">Veiculos de teste</a>
+                </div>
+                <div style="background-image: url('./images/carro1.jpg');" class="foto-destaque"></div><!--foto-destaque-->
+                <div class="nav-galeria-parent">
+                    <div class="arrow-left-nav"></div>
+                    <div class="arrow-right-nav"></div>
+                    <div class="nav-galeria">
+                        <div class="nav-galeria-wraper">
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                            <div style="background-image: url('images/carro1.jpg');" class="mini-img"></div>
+                        </div><!--nav-galeria-wraper-->
+                    </div><!--nav-galeria-->
+                </div><!--nav-galeria-parent-->
+            </div><!--info-veiculo-->
+
+            <div class="descricao-veiculos">
+                <h2>R$20.000,00</h2>
+                <p>Lorem ipsum, dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam unde porro dolore, sequi explicabo obcaecati quibusdam cumque! Esse, earum error! Quod reiciendis repellendus distinctio fugit</p>
+                <a class="bt1" href="#">Entrem em contato</a>
+            </div><!--descricao-veiculos-->
+            <div class="clear"></div>
+        </div><!--container-->
+
+        <div class="clear"></div>
+    </section><!--venda-single-->
+
+  
+
+
+
+
+    <section class="contato">
+        <div class="line-titulo">
+                <div class="ln1"></div><!--ln1-->
+                    <h2>Contato</h2>
+        </div><!--line-titulo-->
+    <form>
+        <div class="input-wraper w100">
+
+            <input type="text" name="" placeholder="Nome" required>
+
+        </div><!--input-wraper-w100-->
+
+        <div class="input-wraper w50">
+
+            <input type="text" name="" placeholder="E-mail" required>
+
+        </div><!--input-wraper-w100-->
+
+        <div class="input-wraper w50">
+
+            <input type="text" name="" placeholder="Telefone" required>
+
+        </div><!--input-wraper-w100-->
+
+        <div class="input-wraper w100">
+
+            <textarea placeholder="Mensagem" required></textarea>
+
+        </div><!--input-wraper-w100-->
+        <div class="input-wraper w100">
+
+            <input class="bt1" type="submit" value="Enviar">
+
+        </div><!--input-wraper-w100-->
+        <div class="clear"></div>
+    </form>
+    </section><!--contato-->
+
+
     <section class="veiculos-destaque">
         <div class="line-titulo">
                 <div class="ln1">
@@ -103,82 +178,17 @@
         </div><!--container-->
     </section><!--veiculos-destaque-->
 
-    <section class="servicos-descricao">
 
-        <div class="half1">
-            <div class="half1-wraper">
-                <h2>Serviços</h2>
-                <ul>
-                    <li>Compra</li>
-                    <li>Venda</li>
-                    <li>Consultoria de veículos</li>
-                    <li>Indicação de Mecânicos e peças</li>
-                </ul>
-                <a class="bt1" href="#">Saiba mais</a>
-            </div><!--half1-wraper-->
-        </div><!--half1-->
 
-        <div class="half2">
-            <h2>Depoimentos</h2>
-            <div class="depoimento-single">
-                <p>“O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-drive”</p>
-                <div class="navigation">
-                    <div class="arrows">
-                        <img src="images/arrow-left.png" alt="images">
-                        <img src="images/arrow-right.png" alt="images">
-                    </div><!--arrows-->
-                    <div class="nome-depoimento">João da Silva</div>
-                </div><!--navigation-->
-            </div><!--depoimento-single-->
-        </div><!--half2-->
-    </section><!--servicos-descricao-->
-
-    <section class="contato">
-        <div class="line-titulo">
-            <div class="ln1"></div><!--ln1-->
-                <h2>Contato</h2>
-    </div><!--line-titulo-->
-    <form>
-        <div class="input-wraper w100">
-
-            <input type="text" name="" placeholder="Nome" required>
-
-        </div><!--input-wraper-w100-->
-
-        <div class="input-wraper w50">
-
-            <input type="text" name="" placeholder="E-mail" required>
-
-        </div><!--input-wraper-w100-->
-
-        <div class="input-wraper w50">
-
-            <input type="text" name="" placeholder="Telefone" required>
-
-        </div><!--input-wraper-w100-->
-
-        <div class="input-wraper w100">
-
-            <textarea placeholder="Mensagem" required></textarea>
-
-        </div><!--input-wraper-w100-->
-        <div class="input-wraper w100">
-
-            <input class="bt1" type="submit" value="Enviar">
-
-        </div><!--input-wraper-w100-->
-        <div class="clear"></div>
-    </form>
-    </section><!--contato-->
     <footer>
         <div class="container">
             <nav>
                 <ul>
                     <li>
-                        <a style="color: #EB2D2D;" href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="venda.html">Venda</a>
+                        <a style="color: #EB2D2D;" href="venda.html">Venda</a>
                     </li>
                     <li>
                         <a href="#">Sobre</a>
